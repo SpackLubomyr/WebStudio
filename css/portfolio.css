@@ -1,64 +1,69 @@
+body{
+    font-family: 'Raleway', 'Roboto';
+}
 .title{
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1,19;
     letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #000000;
+}
+.accent{
     color: #2196F3;
 }
 .nav{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,14;
     letter-spacing: 0.02em;
+    text-decoration: none;
     color: #212121;
 }
+.nav:hover{
+    color: #2196F3;
+}
 .contacts{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,14;
     letter-spacing: 0.02em;
+    text-decoration: none;
     color: #757575;
 }
+.contacts:hover{   
+    color: #2196F3;
+}
 .buttons{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1,62;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
 }
+.buttons:hover{
+    color:#FFFFFF;
+    background: #2196F3;
+}
 .heading{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
 }
 .item{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1,87;
     letter-spacing: 0.03em;
     color: #757575;
 }
 .adress{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,71;
     letter-spacing: 0.03em;
     /* color: #FFFFFF; */
     /* Невидно-на-білому-фоні */

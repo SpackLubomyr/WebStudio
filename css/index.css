@@ -1,118 +1,113 @@
+body{
+    font-family: 'Raleway', 'Roboto';
+}
 .title{
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1,19;
     letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #000000;
+}
+.accent{
     color: #2196F3;
 }
 .nav{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,14;
     letter-spacing: 0.02em;
+    text-decoration: none;
     color: #212121;
 }
+.nav:hover{
+    color: #2196F3;
+}
 .contacts{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,14;
     letter-spacing: 0.02em;
+    text-decoration: none;
     color: #757575;
 }
+.contacts:hover{   
+    color: #2196F3;
+}
 .logo{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1,36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    background: #2F303A;;
+    color: white;
     /* color: #FFFFFF; */
     /* Невидно-на-білому-фоні */
 }
 .button{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1,87;
     display: flex;
     align-items: center;
     text-align: center;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.06em;  
+    color:#FFFFFF;
+    background: #2196F3;
 }
 .section1logo{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
 }
 .section1text{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,71;
     letter-spacing: 0.03em;
     color: #757575;
 }
 .logo2{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1,16;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
 }
 .logo3{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1,16;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
 }
 .names{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1,18;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
 }
 .jobs{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1,18;
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
 }
 .adress{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,71;
     letter-spacing: 0.03em;
     /* color: #FFFFFF; */
     /* Невидно-на-білому-фоні */
