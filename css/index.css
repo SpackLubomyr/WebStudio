@@ -6,7 +6,6 @@ body{
     font-size: 26px;
     line-height: 1,19;
     letter-spacing: 0.03em;
-    text-decoration: none;
     color: #000000;
 }
 .accent{
@@ -17,7 +16,6 @@ body{
     font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0.02em;
-    text-decoration: none;
     color: #212121;
 }
 .navigation-link:hover{
@@ -28,7 +26,6 @@ body{
     font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0.02em;
-    text-decoration: none;
     color: #757575;
 }
 .navigation-mail:hover{   
@@ -39,7 +36,6 @@ body{
     font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0.02em;
-    text-decoration: none;
     color: #757575;
 }
 .navigation-tel:hover{   
@@ -119,7 +115,6 @@ body{
     font-size: 26px;
     line-height: 1,19;
     letter-spacing: 0.03em;
-    text-decoration: none;
     color: #000000;
 }
 .footer-adress{
