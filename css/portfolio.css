@@ -1,10 +1,11 @@
 body{
-    font-family: 'Raleway', 'Roboto';
+    font-family:'Roboto';
 }
 .header-title{
+    font-family:'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000000;
 }
@@ -14,7 +15,7 @@ body{
 .navigation-link{
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
 }
@@ -24,7 +25,7 @@ body{
 .navigation-mail{
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
 }
@@ -34,7 +35,7 @@ body{
 .navigation-tel{
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
 }
@@ -44,7 +45,7 @@ body{
 .main-buttons{
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,62;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     border: 0;
@@ -64,14 +65,15 @@ body{
 .cards-text{
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,87;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     color: #757575;
 }
 .footer-title{
+    font-family:'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000000;
 }
@@ -79,7 +81,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     background: #2F303A;
     color: #FFFFFF;
