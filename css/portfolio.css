@@ -42,7 +42,7 @@ body{
 .header-tel:hover{   
     color: #2196F3;
 }
-.main-buttons{
+.buttons-button{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -51,7 +51,7 @@ body{
     border: 0;
     color: #212121;
 }
-.main-buttons:hover{
+.buttons-button:hover{
     color:#FFFFFF;
     background: #2196F3;
 }
