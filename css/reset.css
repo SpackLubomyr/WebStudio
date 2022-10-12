@@ -1,47 +1,10 @@
-.header-title{
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-}
-.navigation-list{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-.navigation-link{
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-}
-.navigation-mail{
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-}
-.navigation-tel{
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-}
-.section-items{
-    margin: 0;
-    padding: 0;
-}
-.section-list{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-.cards-items{
-    margin: 0;
-    padding: 0;
-}
-.list-buttons{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-.footer-title{
+h1,
+h2,
+h3,
+ul,
+p,
+address,
+a{
     text-decoration: none;
     margin: 0;
     padding: 0;

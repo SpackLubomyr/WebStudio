@@ -7,39 +7,40 @@ body{
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    box-sizing: border-box;
     color: #000000;
 }
 .accent{
     color: #2196F3;
 }
-.navigation-link{
+.header-link{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
 }
-.navigation-link:hover{
+.header-link:hover{
     color: #2196F3;
 }
-.navigation-mail{
+.header-mail{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
 }
-.navigation-mail:hover{   
+.header-mail:hover{   
     color: #2196F3;
 }
-.navigation-tel{
+.header-tel{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
 }
-.navigation-tel:hover{   
+.header-tel:hover{   
     color: #2196F3;
 }
 .hero-logo{
@@ -95,7 +96,7 @@ body{
     letter-spacing: 0.03em;
     color: #212121;
 }
-.cards-names{
+.team-names{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -103,7 +104,7 @@ body{
     letter-spacing: 0.03em;
     color: #212121;
 }
-.cards-jobs{
+.team-jobs{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
@@ -118,6 +119,36 @@ body{
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000000;
+}
+.footer-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.footer-link:hover{
+    color: #2196F3;
+}
+.footer-mail{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.footer-mail:hover{   
+    color: #2196F3;
+}
+.footer-tel{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.footer-tel:hover{   
+    color: #2196F3;
 }
 .footer-adress{
     font-style: normal;
