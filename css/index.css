@@ -65,7 +65,7 @@ body{
     color:#FFFFFF;
     background: #2196F3;
 }
-.items-title{
+.benefits-title{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -73,7 +73,7 @@ body{
     text-transform: uppercase;
     color: #212121;
 }
-.items-text{
+.benefits-text{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
