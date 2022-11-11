@@ -9,7 +9,7 @@ body{
     letter-spacing: 0.03em;
     color: #000000;
 }
-.accent{
+.title-color{
     color: #2196F3;
 }
 .header-link{
@@ -54,6 +54,9 @@ body{
 .buttons-button:hover{
     color:#FFFFFF;
     background: #2196F3;
+}
+.product-list{
+    flex-wrap: wrap;
 }
 .product-title{
     font-weight: 700;

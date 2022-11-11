@@ -1,6 +1,8 @@
 body{
     font-family:'Roboto';
 }
+
+/* Header */
 .header-title{
     font-family:'Raleway';
     font-weight: 700;
@@ -10,15 +12,42 @@ body{
     box-sizing: border-box;
     color: #000000;
 }
-.accent{
+.title-color{
     color: #2196F3;
 }
+.header-section{    
+    display: flex; 
+    padding-left: 215px;
+    padding-top: 11px;
+    padding-bottom: 13px;
+    align-items: center;
+}
+.header-pages{    
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 93px;
+    padding-right: 54px;
+}    
+.header-contacts{    
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 93px;
+    padding-right: 54px;
+}    
+.header-list{    
+    padding-left: 93px;
+}     
 .header-link{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
+}
+.header-item{
+    margin-left: 100px;
 }
 .header-link:hover{
     color: #2196F3;
@@ -43,6 +72,13 @@ body{
 .header-tel:hover{   
     color: #2196F3;
 }
+
+/* Hero-section */
+.hero-section{
+    background: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
 .hero-logo{
     font-weight: 900;
     font-size: 44px;
@@ -50,7 +86,6 @@ body{
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    background: #2F303A;
     color: white;
 }
 .hero-button{
@@ -62,6 +97,8 @@ body{
     text-align: center;
     letter-spacing: 0.06em;  
     border: 0;
+    margin-left: 700px;
+    margin-right: 700px;
     color:#FFFFFF;
     background: #2196F3;
 }
