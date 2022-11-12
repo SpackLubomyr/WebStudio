@@ -1,6 +1,17 @@
 body{
     font-family:'Roboto';
 }
+
+
+/* Секція-хедер */
+.header-section .container{
+    display: flex;
+    height: 80px;
+    width: 1600px;
+}
+.header-navigation{
+    display: flex;
+}
 .header-title{
     font-family:'Raleway';
     font-weight: 700;
@@ -12,12 +23,32 @@ body{
 .title-color{
     color: #2196F3;
 }
+.header-section{    
+    display: flex; 
+    padding-top: 11px;
+    padding-bottom: 13px;
+    align-items: center;
+}
+.header-pages{    
+    display: flex;
+    align-items: center;
+}    
+.header-contacts{    
+    display: flex;
+    align-items: center;
+}    
+.header-list{    
+    padding-left: 93px;
+}     
 .header-link{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
+}
+.header-item{
+    margin-left: 100px;
 }
 .header-link:hover{
     color: #2196F3;
@@ -42,11 +73,13 @@ body{
 .header-tel:hover{   
     color: #2196F3;
 }
+
+
+/* Секція-кнопок */
 .buttons-button{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    text-align: center;
     letter-spacing: 0.03em;
     border: 0;
     color: #212121;
@@ -55,8 +88,16 @@ body{
     color:#FFFFFF;
     background: #2196F3;
 }
+.buttons-list{
+    display: flex;
+    margin: auto;
+}
+
+
+/* Продукти-компанії */
 .product-list{
     flex-wrap: wrap;
+    display: flex;
 }
 .product-title{
     font-weight: 700;
@@ -72,6 +113,7 @@ body{
     letter-spacing: 0.03em;
     color: #757575;
 }
+/* Секція-футер */
 .footer-title{
     font-family:'Raleway';
     font-weight: 700;

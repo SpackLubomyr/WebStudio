@@ -3,13 +3,20 @@ body{
 }
 
 /* Header */
+.header-section .container{
+    display: flex;
+    height: 80px;
+    width: 1600px;
+}
+.header-navigation{
+    display: flex;
+}
 .header-title{
     font-family:'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    box-sizing: border-box;
     color: #000000;
 }
 .title-color{
@@ -17,24 +24,17 @@ body{
 }
 .header-section{    
     display: flex; 
-    padding-left: 215px;
     padding-top: 11px;
     padding-bottom: 13px;
     align-items: center;
 }
 .header-pages{    
     display: flex;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 93px;
-    padding-right: 54px;
+    align-items: center;
 }    
 .header-contacts{    
     display: flex;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 93px;
-    padding-right: 54px;
+    align-items: center;
 }    
 .header-list{    
     padding-left: 93px;
@@ -74,6 +74,9 @@ body{
 }
 
 /* Hero-section */
+.benefits-list{
+    display: flex;
+}
 .hero-section{
     background: #2F303A;
     padding-top: 200px;
@@ -97,8 +100,9 @@ body{
     text-align: center;
     letter-spacing: 0.06em;  
     border: 0;
-    margin-left: 700px;
-    margin-right: 700px;
+    margin: auto;
+    height: auto;
+    width: auto;
     color:#FFFFFF;
     background: #2196F3;
 }
@@ -117,6 +121,7 @@ body{
     letter-spacing: 0.03em;
     color: #757575;
 }
+/* Чим ми займаємось */
 .images-title{
     font-weight: 700;
     font-size: 36px;
@@ -125,13 +130,23 @@ body{
     letter-spacing: 0.03em;
     color: #212121;
 }
-.section-title{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
+.work-item{
+    /* margin-right: 30px; */
+    margin: auto;
+}
+.work-list{
+    display: flex
+}
+/* Наша-команда */
+.team-title{
+    align-items: center;
+}
+.team-list{
+    display: flex;
+}
+.team-item{
+    margin: auto;
+
 }
 .team-names{
     font-weight: 500;
@@ -149,6 +164,12 @@ body{
     letter-spacing: 0.03em;
     color: #757575;
 }
+.team-image{
+    width: 270px;
+    height: 260px;
+}
+
+/* Секція-футер */
 .footer-title{
     font-family:'Raleway';
     font-weight: 700;
