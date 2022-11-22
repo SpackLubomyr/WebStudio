@@ -90,7 +90,10 @@ body{
 }
 .buttons-list{
     display: flex;
+}
+.buttons-item{
     margin: auto;
+    align-items: center;
 }
 
 
@@ -98,6 +101,10 @@ body{
 .product-list{
     flex-wrap: wrap;
     display: flex;
+}
+.product-item{
+    margin: auto;
+    border: 1px solid #EEEEEE;
 }
 .product-title{
     font-weight: 700;
