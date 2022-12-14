@@ -123,6 +123,9 @@ body{
     letter-spacing: 0.03em;
     color: #757575;
 }
+.benefits-item{
+    content: url(../);
+}
 /* Чим ми займаємось */
 .images-title{
     font-weight: 700;
