@@ -123,9 +123,30 @@ body{
     letter-spacing: 0.03em;
     color: #757575;
 }
-.benefits-item{
-    content: url(../);
+.benefits-items::before{
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    background-size: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+.benefits-items:nth-child(1)::before{
+    background-image: url(../image/studia/antenna.png);
+}
+.benefits-items:nth-child(2)::before{
+    background-image: url(../image/studia/clock.png);
+}
+.benefits-items:nth-child(3)::before{
+    background-image: url(../image/studia/diagram.png);
+}
+.benefits-items:nth-child(4)::before{
+    background-image: url(../image/studia/astronaut.png);
+}
+
 /* Чим ми займаємось */
 .images-title{
     font-weight: 700;
@@ -135,6 +156,7 @@ body{
     letter-spacing: 0.03em;
     color: #212121;
 }
+
 .work-item{
     /* margin-right: 30px; */
     margin: auto;
