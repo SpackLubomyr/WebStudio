@@ -53,6 +53,10 @@ body{
 
 .header-link:hover{
     color: #2196F3;
+    border-radius: 2px;
+    border-bottom: solid;
+    width: 48px;
+    height: 4px;
 }
 
 .header-contacts{    
@@ -203,6 +207,7 @@ body{
 .work-list{
     display: flex;
 }
+
 .work-text{
     font-weight: 700;
     font-size: 14px;
@@ -314,6 +319,7 @@ body{
 /* Секція-футер */
 .footer-section{
     background: #2F303A;
+    display: flex;
 }
 .footer-title{
     font-family:'Raleway';
@@ -353,11 +359,14 @@ body{
     padding-bottom: 60px;
     color: #757575;
 }
-.footer-item:first-child{
-    padding-top: 0;
-}
+
 .footer-item{
-    padding-top: 9px;
+    margin-right: 10px;
+    padding-top: 20px;
+    display: flex;
+}
+.footer-item:last-child{
+    margin-right: 0;
 }
 .footer-tel:hover{   
     color: #2196F3;
@@ -371,5 +380,33 @@ body{
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF; 
+}
+.footer-text{
+    color: #FFFFFF;
+}
+.footer-logo{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: flex;
+    width: 44px;
+    height: 44px;
+}
+.footer-logo:hover{
+    background: #2196F3;
+}
+.footer-svg{
+    fill: #FFFFFF;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+.footer-list{
+    display: flex;
+}
+.footer-input{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
 }
 

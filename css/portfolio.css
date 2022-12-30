@@ -4,14 +4,24 @@ body{
 
 
 /* Секція-хедер */
+.header-svg
+.header-navigation{
+    margin-left: 93px;
+}
+    
+.header-pages .header-item{
+    margin-left: 50px;
+}
+
 .header-section .container{
     display: flex;
     height: 80px;
-    width: 1600px;
+    align-items: center;
 }
 .header-navigation{
     display: flex;
 }
+
 .header-title{
     font-family:'Raleway';
     font-weight: 700;
@@ -20,26 +30,20 @@ body{
     letter-spacing: 0.03em;
     color: #000000;
 }
+
 .title-color{
     color: #2196F3;
 }
-.header-section{    
-    display: flex; 
-    padding-top: 11px;
-    padding-bottom: 13px;
-    align-items: center;
-}
+
 .header-pages{    
     display: flex;
     align-items: center;
 }    
-.header-contacts{    
-    display: flex;
-    align-items: center;
-}    
+
 .header-list{    
     padding-left: 93px;
-}     
+}  
+
 .header-link{
     font-weight: 500;
     font-size: 14px;
@@ -47,32 +51,54 @@ body{
     letter-spacing: 0.02em;
     color: #212121;
 }
-.header-item{
-    margin-left: 100px;
-}
+
 .header-link:hover{
-    color: #2196F3;
+    border-radius: 2px;
+    width: 48px;
+    height: 4px;
 }
+
+.header-contacts{    
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-left: 318px;
+}   
+
 .header-mail{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
     color: #757575;
 }
+
 .header-mail:hover{   
     color: #2196F3;
 }
+
 .header-tel{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
     color: #757575;
 }
+
 .header-tel:hover{   
     color: #2196F3;
 }
+
+.header-svg{
+    fill: currentColor;
+    margin-right: 10px;
+}
+
 
 
 /* Секція-кнопок */
@@ -105,8 +131,10 @@ body{
 .product-item{
     margin: auto;
     border: 1px solid #EEEEEE;
+    margin-bottom: 32px;
 }
 .product-title{
+    padding-left: 24px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -114,6 +142,7 @@ body{
     color: #212121;
 }
 .product-text{
+    padding-left: 24px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
@@ -121,10 +150,16 @@ body{
     color: #757575;
 }
 /* Секція-футер */
+.footer-section{
+    background: #2F303A;
+    display: flex;
+}
 .footer-title{
     font-family:'Raleway';
     font-weight: 700;
     font-size: 26px;
+    padding-bottom: 20px;
+    padding-top: 60px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #FFFFFF;
@@ -154,7 +189,17 @@ body{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    padding-bottom: 60px;
     color: #757575;
+}
+
+.footer-item{
+    margin-right: 10px;
+    padding-top: 20px;
+    display: flex;
+}
+.footer-item:last-child{
+    margin-right: 0;
 }
 .footer-tel:hover{   
     color: #2196F3;
@@ -163,8 +208,32 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 9px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    background: #2F303A;
+    color: #FFFFFF; 
+}
+.footer-text{
     color: #FFFFFF;
+}
+.footer-logo{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: flex;
+    width: 44px;
+    height: 44px;
+}
+.footer-logo:hover{
+    background: #2196F3;
+}
+.footer-svg{
+    fill: #FFFFFF;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+.footer-list{
+    display: flex;
 }
