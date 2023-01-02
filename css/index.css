@@ -144,6 +144,10 @@ body{
     background-color: rgba(0, 0, 0, 0.2);
     z-index: 6;
 }
+.backdrop.is-hidden{
+    opacity: 0;
+    pointer-events: none;
+}
 .form-modal{
     width: 528px;
     height: 581px;
@@ -153,6 +157,22 @@ body{
     left: 50%;
     z-index: 7;
     transform: translate(-50%,-50%);
+}
+.form-close{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    margin-left: 496px;
+    background: #FFFFFF;
+    width: 30px;
+    height: 30px;
+}
+.form-close:hover{
+    fill:#2196F3;
+}
+.form-svg-close{
+    width: 11px;
+    height: 11px;
+    
 }
 .form-logo{
     padding-top: 40px;
@@ -192,6 +212,15 @@ body{
     border-radius: 4px;
     width: 448px;
     height: 120px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+}
+.form-comments:hover{
+    border: 1px solid #2196F3;
+    border-radius: 4px;
 }
 .form-svg{
     position: absolute;
@@ -201,7 +230,8 @@ body{
     left: 50px;
 }
 .form-svg:hover{
-    background-color: #2196F3;
+    fill: #2196F3;
+    
 }
 .form-accept{
     padding-top: 20px;
@@ -230,6 +260,11 @@ body{
     border-radius: 4px;
     width: 200px;
     height: 50px;
+}
+.form-link{
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+    color: #2196F3;
 }
 
 /* Секція-переваги */
@@ -425,7 +460,10 @@ body{
 /* Секція-футер */
 .footer-section{
     background: #2F303A;
+}
+.footer-section .container{
     display: flex;
+    
 }
 .footer-title{
     font-family:'Raleway';
@@ -511,6 +549,7 @@ body{
     display: flex;
 }
 .footer-input{
+    box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;

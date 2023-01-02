@@ -63,7 +63,7 @@
       <section class="hero-section">
         <div class="container">
           <h1 class="hero-logo">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br />ВАШОГО БІЗНЕСУ</h1>
-          <button class="hero-button" type="button">Замовити послугу</button>
+          <button class="hero-button" type="button" data-open-modal>Замовити послугу</button>
         </div>
       </section>
 
@@ -339,51 +339,12 @@
                 </svg>
               </a>
             </li>
+          </ul>
         </div>
       </section>
 
       <!-- Модалка -->
-      <section class="form-section">
-        <div class="backdrop">
-          <div class="form-modal">
-            <h3 class="form-logo">Залиште свої дані, ми вам передзвонимо</h3>
-            <div class="form-inputs">
-              <ul class="form-list">
-                <li class="form-item">
-                  <p class="form-info">Ім'я</p>
-                  <input class="form-input" type="text">
-                  <svg class="form-svg">
-                    <use href="./image/studia/symbol-defs2.svg#icon-Vector"></use>
-                  </svg>
-                </li>
-                <li class="form-item">
-                  <p class="form-info">Телефон</p>
-                  <input class="form-input" type="text">
-                  <svg class="form-svg">
-                    <use href="./image/studia/symbol-defs2.svg#icon-telephon"></use>
-                  </svg>
-                </li>
-                <li class="form-item">
-                  <p class="form-info">Пошта</p>
-                  <input class="form-input" type="text">
-                  <svg class="form-svg">
-                    <use href="./image/studia/symbol-defs2.svg#icon-mail"></use>
-                  </svg>
-                </li>
-                <li class="form-item"> 
-                  <p class="form-info">Коментар</p>
-                  <input class="form-comments" type="text">
-                </li>
-              </ul>
-            </div>
-            <div class="form-accept">
-              <input type="checkbox" class="form-checkbox">
-              <p class="form-text">Погоджуюся з розсилкою та приймаю <a class="form-link" href="./">Умови договору</a></p>
-            </div>
-            <button class="form-button" type="button">Відправити</button>
-          </div>
-        </div>     
-    </section>
+      
     </main>
     <!-- Секція-футер -->
     <footer class="footer-section">
@@ -446,5 +407,73 @@
         </div>   
       </div>        
     </footer>
+    
+    <section class="form-section" >
+      <div class="backdrop is-hidden" data-backdrop>
+        <div class="form-modal">
+          <button type="button" class="form-close" data-close-modal>
+            <svg class="form-svg-close">
+              <use href="image/studia/symbol-defs2.svg#icon-close"></use>
+            </svg>
+          </button>
+          <h3 class="form-logo">Залиште свої дані, ми вам передзвонимо</h3>
+          <div class="form-inputs">
+            <ul class="form-list">
+              <li class="form-item">
+                <p class="form-info">Ім'я</p>
+                <input class="form-input" type="text">
+                <svg class="form-svg">
+                  <use href="./image/studia/symbol-defs2.svg#icon-Vector"></use>
+                </svg>
+              </li>
+              <li class="form-item">
+                <p class="form-info">Телефон</p>
+                <input class="form-input" type="text">
+                <svg class="form-svg">
+                  <use href="./image/studia/symbol-defs2.svg#icon-telephon"></use>
+                </svg>
+              </li>
+              <li class="form-item">
+                <p class="form-info">Пошта</p>
+                <input class="form-input" type="text">
+                <svg class="form-svg">
+                  <use href="./image/studia/symbol-defs2.svg#icon-mail"></use>
+                </svg>
+              </li>
+              <li class="form-item"> 
+                <p class="form-info">Коментар</p>
+                <input class="form-comments" type="text" placeholder="Введіть текст">
+              </li>
+            </ul>
+          </div>
+          <div class="form-accept">
+            <input type="checkbox" class="form-checkbox">
+            <p class="form-text">Погоджуюся з розсилкою та приймаю <a class="form-link" href="./">Умови договору</a></p>
+          </div>
+          <button class="form-button" type="button">Відправити</button>
+        </div>
+      </div>     
+  </section>
+
+    <script>
+      const refs = {
+        openModalBtn: document.querySelector("[data-open-modal]"),
+        closeModalBtn: document.querySelector("[data-close-modal]"),
+        backdrop: document.querySelector("[data-backdrop]"),
+      };
+
+      refs.openModalBtn.addEventListener("click", toggleModal);
+      refs.closeModalBtn.addEventListener("click", toggleModal);
+
+      refs.backdrop.addEventListener("click", logBackdropClick);
+
+      function toggleModal() {
+        refs.backdrop.classList.toggle("is-hidden");
+      }
+
+      function logBackdropClick() {
+        console.log("Це клік в бекдроп");
+      }
+    </script>
   </body>
 </html>
