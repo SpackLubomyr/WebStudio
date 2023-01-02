@@ -463,7 +463,7 @@ body{
 }
 .footer-section .container{
     display: flex;
-    
+    align-items: center;
 }
 .footer-title{
     font-family:'Raleway';
@@ -525,7 +525,15 @@ body{
     letter-spacing: 0.03em;
     color: #FFFFFF; 
 }
+.footer-socialNetworks{
+    margin-left: 70px;
+}
+
 .footer-text{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 .footer-logo{
@@ -548,10 +556,31 @@ body{
 .footer-list{
     display: flex;
 }
+.footer-mailing{
+    margin-left: 93px;
+}
 .footer-input{
+    margin-top: 20px;
+    width: 358px;
+    height: 50px;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
+}
+.footer-button{
+    width: 200px;
+    height: 50px;
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    align-items: center;
+    display: flex;
+}
+.button-svg{
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
 }
 
