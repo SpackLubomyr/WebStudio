@@ -1,0 +1,41 @@
+.clients__title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    padding-top: 94px;
+    text-align: center;
+    letter-spacing: 0.03em;   
+    color: #212121;
+}
+.clients__list{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.clients__item{
+    margin-right: 30px;
+}
+.clients__item:last-child{
+    margin-right: 0;
+}
+.clients__logo{
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    width: 170px;
+    height: 90px;
+}
+.clients__logo:hover{
+    border: 1px solid #2196F3;
+}
+.clients__svg{
+    margin: auto;
+    width: 106px;
+    height: 60px;
+    fill: #AFB1B8;
+}
+.clients__svg:hover{
+    fill: #2196F3;
+}
