@@ -1,18 +1,26 @@
 .team__section{
     background: #F5F4FA;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
 }
 .team__title{
     font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    padding-top: 94px;
+    font-size: 28px;
+    line-height: 33px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    @media screen and (min-width: 1200px) {
+        font-size: 36px;
+        line-height: 42px;
+    }
 }
 .workers{
     display: flex;
-    padding-bottom: 94px;
     justify-content: center;
 }
 .workers__item{
