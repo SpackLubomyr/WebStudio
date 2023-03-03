@@ -1,19 +1,28 @@
 .footer__section{
     background: #2F303A;
+    padding-top: 60px;
 }
 .footer__section .container{
-    display: flex;
+   
     align-items: center;
+    @media screen and (min-width: 1200px) {
+        display: flex;
+    }
 }
 .brend__title{
-    font-family:'Raleway';
     font-weight: 700;
-    font-size: 26px;
+    font-size: 24px;
+    line-height: 28px;
     padding-bottom: 20px;
     padding-top: 60px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    text-align: center;
     color: #FFFFFF;
+    @media screen and (min-width: 1200px) {
+        font-size: 26px;
+        line-height: 31px;
+    }
 }
 .brend__title-color{
     color: #2196F3;
@@ -43,14 +52,16 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    padding-bottom: 60px;
     color: #757575;
 }
 
 .brend__item{
     margin-right: 10px;
-    padding-top: 20px;
+    padding-top: 9px;
     display: flex;
+    @media screen and (min-width: 1200px) {
+        padding-top: 20px;
+    }
 }
 .brend__item:last-child{
     margin-right: 0;
@@ -62,11 +73,18 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    padding-top: 20px;
-    padding-bottom: 9px;
     line-height: 1.71;
+    padding-top: 20px;
+    
     letter-spacing: 0.03em;
     color: #FFFFFF; 
+    @media screen and (min-width: 768px) {
+        font-size: 26px;
+        line-height: 31px;
+    }
+    @media screen and (min-width: 1200px) {
+        padding-bottom: 9px;
+    }
 }
 .socialNetworks{
     margin-left: 70px;
@@ -76,7 +94,9 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
+    padding-top: 60px;
     letter-spacing: 0.03em;
+    text-align: center;
     color: #FFFFFF;
 }
 .socialNetworks__logo{
@@ -86,6 +106,7 @@
     display: flex;
     width: 44px;
     height: 44px;
+
 }
 .socialNetworks__logo:hover{
     background: #2196F3;

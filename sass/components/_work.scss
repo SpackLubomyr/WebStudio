@@ -1,3 +1,9 @@
+.work{
+    display: none;
+    @media screen and (min-width: 1200px) {
+        display: block;
+    }
+}
 .work__title{
     font-weight: 700;
     font-size: 36px;
@@ -5,6 +11,7 @@
     text-align: center;
     padding-bottom: 50px;
     letter-spacing: 0.03em;
+
     color: #212121;
 }
 .work__item{
