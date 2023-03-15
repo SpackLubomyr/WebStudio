@@ -50,7 +50,12 @@ a {
 }
 
 .header__navigation {
-  display: flex;
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .header__navigation {
+    display: flex;
+  }
 }
 
 .header__title {
@@ -130,6 +135,86 @@ a {
 .contacts__svg {
   fill: currentColor;
   margin-right: 10px;
+}
+
+.header__button {
+  display: block;
+  margin-left: auto;
+}
+@media screen and (min-width: 768px) {
+  .header__button {
+    display: none;
+  }
+}
+
+.header__overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+}
+
+.overlay.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.2s ease-in;
+}
+
+.menu {
+  max-width: 480px;
+  margin: 0 auto;
+  height: 100%;
+  background-color: #fff;
+}
+
+.menu__item {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  margin-bottom: 32px;
+  margin-left: 40px;
+}
+
+.menu__item:last-child {
+  margin-bottom: 302px;
+}
+
+.menu__item:hover {
+  color: #2196F3;
+}
+
+.overlay__tel {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: #2196F3;
+}
+
+.overlay__mail {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.socials__item {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #2196F3;
+  margin-right: 20px;
+  padding-top: 64px;
+}
+
+.button {
+  margin-left: auto;
 }
 
 .hero__section {
@@ -348,7 +433,22 @@ a {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   margin-top: 30px;
-  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .workers__item {
+    margin-right: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .workers__item {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .workers__item:last-child {
+    margin-right: 0;
+  }
 }
 
 .workers__names {
@@ -374,6 +474,11 @@ a {
 
 .workers__image {
   width: 100%;
+}
+@media screen and (min-width: 1200px) {
+  .workers__image {
+    width: 270px;
+  }
 }
 
 .worker__link {
