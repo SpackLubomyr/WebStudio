@@ -156,7 +156,7 @@ a {
   left: 0;
 }
 
-.overlay.is-hidden {
+.header__overlay, .is-hidden {
   opacity: 0;
   pointer-events: none;
   transition: all 0.2s ease-in;
