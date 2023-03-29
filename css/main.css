@@ -35,6 +35,12 @@ a {
   list-style-type: none;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .contacts__svg .header__navigation {
   margin-left: 93px;
 }
@@ -140,6 +146,9 @@ a {
 .header__button {
   display: block;
   margin-left: auto;
+  margin-left: auto;
+  background-color: white;
+  border: 0px;
 }
 @media screen and (min-width: 768px) {
   .header__button {
@@ -156,17 +165,29 @@ a {
   left: 0;
 }
 
-.header__overlay, .is-hidden {
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.header__overlay.is-hidden {
   opacity: 0;
   pointer-events: none;
   transition: all 0.2s ease-in;
 }
 
 .menu {
-  max-width: 480px;
-  margin: 0 auto;
-  height: 100%;
-  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+  min-width: 400px;
+  padding: 15px;
+  background-color: white;
 }
 
 .menu__item {

@@ -56,7 +56,13 @@
             </li>
           </ul>
         </nav>
-        <button type="button" class="header__button" data-open-menu>X</button>
+        <button type="button" class="header__button" data-menu-open>
+          <svg height="40" width="40">
+            <use
+              href="./image/studia/symbol-defs3.svg#icon-menu"
+            ></use>
+          </svg>
+        </button>
       </div>
     </header>
     <!-- Секція-герой -->
@@ -453,9 +459,9 @@
       </div>        
     </footer>
     <!-- Модалка-Мобільного-Хедера -->
-    <div class="header__overlay is-hidden" data-overlay>
+    <div class="header__overlay is-hidden" data-menu>
     <div class="menu">
-      <button type="button" data-close-menu>
+      <button type="button" data-menu-close>
         <svg class="button__svg" height="40" width="40">
           <use
             href="./image/studia/symbol-defs3.svg#icon-close"

@@ -1,17 +1,15 @@
-const refs = {
-    openModalBtn: document.querySelector("[data-open-menu]"),
-    closeModalBtn: document.querySelector("[data-close-menu]"),
-    backdrop: document.querySelector("[data-overlay]"),
-};
-
-refs.openModalBtn.addEventListener("click", toggleModal);
-refs.closeModalBtn.addEventListener("click", toggleModal);
-refs.backdrop.addEventListener("click", logBackdropClick);
-
-function toggleModal() {
-    refs.backdrop.classList.toggle("is-hidden");
-}
-
-function logBackdropClick() {
-    console.log("Це клік в бекдроп");
-}
+(() => {
+    const refs = {
+      openMenuBtn: document.querySelector("[data-menu-open]"),
+      closeMenuBtn: document.querySelector("[data-menu-close]"),
+      menu: document.querySelector("[data-menu]"),
+    };
+  
+    refs.openMenuBtn.addEventListener("click", toggleMenu);
+    refs.closeMenuBtn.addEventListener("click", toggleMenu);
+  
+    function toggleMenu() {
+      refs.menu.classList.toggle("is-hidden");
+      document.body.classList.toggle("no-scroll");
+    }
+  })();
